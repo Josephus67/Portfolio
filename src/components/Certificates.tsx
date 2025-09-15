@@ -21,51 +21,108 @@ export function Certificates() {
   const projects = [
     {
       title: "Python Programming Basics",
-      description: "A comprehensive admin dashboard for e-commerce management with real-time analytics, inventory tracking, and customer insights.",
+      description:
+        "Introduced core Python concepts: data types, control flow, functions & modules, file I/O, basic OOP, exception handling, asyncio for concurrency, and web scraping with requests & BeautifulSoup. Includes hands-on exercises and mini projects.",
       image: python_programming,
-      technologies: ["Asynchrnous Programming", "Control flows", "web scrapping", "ML Basics", "Condtionals","Error Handling","Try Catch"],
+      technologies: [
+        "Python",
+        "Asyncio",
+        "Control Flow",
+        "Functions & Modules",
+        "Object-Oriented Programming",
+        "File I/O",
+        "Exception Handling",
+        "Web Scraping (requests, BeautifulSoup)"
+      ],
       category: "Huawei",
     },
     {
       title: "Artificial Intelligence Fundamentals with Capstone Project",
-      description: "A secure and intuitive mobile banking application with biometric authentication, transaction history, and budget tracking features.",
+      description:
+        "Comprehensive AI course covering supervised and unsupervised learning, feature engineering, model evaluation, and neural networks. Culminated in a capstone project that built and deployed an end-to-end ML pipeline on a real dataset.",
       image: Ibm_AI,
-      technologies: ["supervised ML", "Unsupervised ML", "Sentiment Analysis", "Classical ML Algorithms","Deep Learning","Neural Networks"],
+      technologies: [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Neural Networks",
+        "TensorFlow / Keras"
+      ],
       category: "IBM",
     },
     {
-      title: "Customer Sentiment Analysis",
-      description: "ML model that analyzes customer reviews and feedback to provide sentiment insights and automated categorization for business intelligence.",
-      image : NetworkLayer,
-      technologies: ["Python", "TensorFlow", "NLTK", "FastAPI", "Docker"],
-      category: "Machine Learning",
+      title: "Basics of Network Layer Protocols (Micro Certification)",
+      description:
+        "Focused study of the network (Layer 3) concepts: IP addressing (IPv4/IPv6), subnetting, routing fundamentals, ICMP, fragmentation, NAT, and packet analysis techniques using Wireshark.",
+      image: NetworkLayer,
+      technologies: [
+        "IP Addressing & Subnetting",
+        "IPv4 / IPv6",
+        "Routing Basics (static / OSPF)",
+        "ICMP & ARP",
+        "NAT & Fragmentation",
+        "Packet Analysis (Wireshark)"
+      ],
+      category: "Networking",
     },
     {
       title: "HCIA-Datacom",
-      description: "A scalable chat application with real-time messaging, file sharing, and video calling capabilities for team collaboration.",
-      image : HCI_Datacom,
-      technologies: ["OSI reference Model", "TCP/IP", "VRRP", "Python Basics"],
+      description:
+        "Huawei HCIA-Datacom certification covering datacom fundamentals: OSI/TCP-IP models, switching and routing basics, VLANs, STP, VRRP, QoS basics and an introduction to automating network tasks with Python scripts.",
+      image: HCI_Datacom,
+      technologies: [
+        "OSI Model",
+        "TCP/IP",
+        "Switching & Routing",
+        "VLANs & STP",
+        "VRRP",
+        "Network Automation (Python)"
+      ],
       category: "Huawei",
     },
     {
-      title: "Predictive Analytics Tool",
-      description: "ML-powered tool that predicts sales trends and customer behavior using historical data and advanced forecasting algorithms.",
-      image : AI_Basics,
-      technologies: ["Python", "Scikit-learn", "Pandas", "Streamlit", "AWS"],
+      title: "AI Basics: Overview",
+      description:
+        "Introductory AI module that explains the machine learning workflow, core algorithms (regression, classification), evaluation metrics, and simple prototyping with scikit-learn and pandas.",
+      image: AI_Basics,
+      technologies: [
+        "Machine Learning Basics",
+        "Regression & Classification",
+        "Model Evaluation",
+        "Pandas",
+        "Scikit-learn",
+        "Streamlit (prototyping)"
+      ],
       category: "Huawei",
     },
     {
-      title: "Al Basic: Overview of Al. (CRA Training Program)",
-      description: "##",
-      image : AI_Basics_training,
-      technologies: ["##", "##", "##", "##", "##"],
+      title: "AI Basics: Overview of AI (CRA Training Program)",
+      description:
+        "Short CRA training covering AI history, major paradigms (ML/DL), practical use cases, ethics and governance, plus hands-on demos and group exercises introducing basic AI algorithms.",
+      image: AI_Basics_training,
+      technologies: [
+        "AI Concepts & History",
+        "Use Cases & Applications",
+        "Ethics in AI",
+        "Basic Algorithms",
+        "Hands-on Demos"
+      ],
       category: "Huawei",
     },
     {
       title: "Accra Mobility Hackathon",
-      description: "A comprehensive admin dashboard for e-commerce management with real-time analytics, inventory tracking, and customer insights.",
+      description:
+        "Team project at a city mobility hackathon: developed a prototype combining geospatial analysis, routing optimization and a dashboard. Tasks included data cleaning, model prototyping, and frontend mapping integration.",
       image: zindi_cert,
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind CSS"],
+      technologies: [
+        "Geospatial Analysis (GeoPandas)",
+        "Routing Optimization",
+        "Data Cleaning & EDA",
+        "TensorFlow (modeling)",
+        "Frontend (React, Mapbox)",
+        "PostGIS / Spatial DB"
+      ],
       category: "Zindi",
     },
   ];
