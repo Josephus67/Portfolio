@@ -17,6 +17,28 @@ import NetworkLayer from '../assets/NetworkLayer.png';
 import AI_Basics_training from '../assets/AI_Basics_training.png';
 // @ts-ignore
 import zindi_cert from '../assets/zindi_cert.png';
+// @ts-ignore
+import aws_cloud_practitioner from '../assets/AWS Certified Cloud Practitioner certificate.png';
+// @ts-ignore
+import aws_restart_graduate from '../assets/aws_restart_graduate.png';
+// @ts-ignore
+import ibm_design from '../assets/ibm_design.pdf';
+// @ts-ignore
+import datacamp_supervised_learning from '../assets/datacamp_supervised_learning.pdf';
+// @ts-ignore
+import datacamp_cloud_computing from '../assets/datacamp_cloud_computing.pdf';
+// @ts-ignore
+import datacamp_aws_concepts from '../assets/datacamp_aws_concepts.pdf';
+// @ts-ignore
+import datacamp_aws_cloud_tech from '../assets/datacamp_aws_cloud_tech.pdf';
+// @ts-ignore
+import datacamp_understanding_ai from '../assets/datacamp_understanding_ai.pdf';
+// @ts-ignore
+import datacamp_aws_practitioner from '../assets/datacamp_aws_practitioner.pdf';
+// @ts-ignore
+import datacamp_mlops from '../assets/datacamp_mlops.pdf';
+// @ts-ignore
+import forage_software_engineering from '../assets/forage_software_engineering.pdf';
 export function Certificates() {
   const projects = [
     {
@@ -124,6 +146,179 @@ export function Certificates() {
         "PostGIS / Spatial DB"
       ],
       category: "Zindi",
+    },
+    {
+      title: "AWS Certified Cloud Practitioner",
+      description:
+        "AWS Cloud Practitioner certification covering foundational cloud concepts, AWS core services (compute, storage, database, networking), security and compliance, billing and pricing models, and cloud architectural best practices.",
+      image: aws_cloud_practitioner,
+      technologies: [
+        "AWS Cloud Concepts",
+        "EC2 & S3",
+        "IAM & Security",
+        "RDS & DynamoDB",
+        "VPC & Networking",
+        "AWS Pricing & Billing",
+        "Cloud Architecture"
+      ],
+      category: "AWS",
+    },
+    {
+      title: "AWS re/Start Graduate",
+      description:
+        "Completed AWS re/Start program, an intensive training covering cloud fundamentals, Linux, Python scripting, networking, security, and hands-on labs with AWS services. Prepared for entry-level cloud support and operations roles.",
+      image: aws_restart_graduate,
+      technologies: [
+        "Cloud Fundamentals",
+        "Linux Administration",
+        "Python Scripting",
+        "AWS Core Services",
+        "Networking & Security",
+        "Troubleshooting",
+        "DevOps Basics"
+      ],
+      category: "AWS",
+    },
+    {
+      title: "IBM Design Thinking",
+      description:
+        "IBM Design Thinking certification focusing on user-centered design principles, empathy mapping, ideation techniques, prototyping, and iterative testing. Applied design thinking methodology to solve real-world business challenges.",
+      image: ibm_design,
+      technologies: [
+        "Design Thinking",
+        "User Research",
+        "Empathy Mapping",
+        "Ideation & Brainstorming",
+        "Prototyping",
+        "User Testing",
+        "Agile Design"
+      ],
+      category: "IBM",
+    },
+    {
+      title: "Supervised Learning with scikit-learn",
+      description:
+        "DataCamp course covering supervised learning algorithms including classification and regression techniques. Hands-on practice with scikit-learn implementing models like decision trees, random forests, support vector machines, and evaluating model performance.",
+      image: datacamp_supervised_learning,
+      technologies: [
+        "Scikit-learn",
+        "Classification",
+        "Regression",
+        "Decision Trees",
+        "Random Forests",
+        "SVM",
+        "Model Evaluation"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "Understanding Cloud Computing",
+      description:
+        "DataCamp course introducing cloud computing fundamentals, deployment models (IaaS, PaaS, SaaS), cloud architecture patterns, virtualization concepts, and cost optimization strategies for cloud-based solutions.",
+      image: datacamp_cloud_computing,
+      technologies: [
+        "Cloud Computing Basics",
+        "IaaS/PaaS/SaaS",
+        "Cloud Architecture",
+        "Virtualization",
+        "Cost Optimization",
+        "Scalability"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "AWS Concepts",
+      description:
+        "DataCamp course covering core AWS concepts including compute services (EC2), storage options (S3, EBS), database services (RDS), networking fundamentals (VPC), and introduction to AWS management tools and best practices.",
+      image: datacamp_aws_concepts,
+      technologies: [
+        "AWS EC2",
+        "S3 Storage",
+        "AWS RDS",
+        "VPC",
+        "IAM",
+        "CloudWatch",
+        "AWS Best Practices"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "AWS Cloud Technology and Services",
+      description:
+        "Comprehensive DataCamp course on AWS cloud technologies covering advanced services, serverless computing (Lambda), container services (ECS, EKS), CI/CD pipelines, infrastructure as code, and cloud security practices.",
+      image: datacamp_aws_cloud_tech,
+      technologies: [
+        "AWS Lambda",
+        "ECS/EKS",
+        "CI/CD",
+        "CloudFormation",
+        "API Gateway",
+        "DynamoDB",
+        "Cloud Security"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "Understanding Artificial Intelligence",
+      description:
+        "DataCamp course providing comprehensive overview of AI concepts, machine learning fundamentals, deep learning basics, natural language processing, computer vision, and ethical considerations in AI development and deployment.",
+      image: datacamp_understanding_ai,
+      technologies: [
+        "AI Fundamentals",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP Basics",
+        "Computer Vision",
+        "AI Ethics",
+        "Neural Networks"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "AWS Cloud Practitioner (CLF-C02)",
+      description:
+        "In-depth DataCamp course preparing for AWS Cloud Practitioner certification. Covers AWS global infrastructure, core services, security and compliance, pricing models, support plans, and cloud architecture best practices.",
+      image: datacamp_aws_practitioner,
+      technologies: [
+        "AWS CLF-C02",
+        "Cloud Architecture",
+        "AWS Services",
+        "Security & Compliance",
+        "Pricing Models",
+        "Well-Architected Framework"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "MLOps Concepts",
+      description:
+        "DataCamp course on Machine Learning Operations covering model deployment strategies, CI/CD for ML, model monitoring and versioning, experiment tracking, automated retraining pipelines, and production ML system architecture.",
+      image: datacamp_mlops,
+      technologies: [
+        "MLOps",
+        "Model Deployment",
+        "CI/CD for ML",
+        "Model Monitoring",
+        "Experiment Tracking",
+        "MLflow",
+        "Production ML"
+      ],
+      category: "DataCamp",
+    },
+    {
+      title: "Software Engineering Job Simulation",
+      description:
+        "Forage job simulation program covering real-world software engineering practices including system architecture design, security implementation, test-driven development, agile methodologies, and collaborative coding workflows.",
+      image: forage_software_engineering,
+      technologies: [
+        "Software Architecture",
+        "Security Best Practices",
+        "Test-Driven Development",
+        "Agile/Scrum",
+        "Code Review",
+        "CI/CD Pipelines"
+      ],
+      category: "Forage",
     },
   ];
 
