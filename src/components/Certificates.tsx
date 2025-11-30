@@ -22,23 +22,23 @@ import aws_cloud_practitioner from '../assets/AWS Certified Cloud Practitioner c
 // @ts-ignore
 import aws_restart_graduate from '../assets/aws_restart_graduate.png';
 // @ts-ignore
-import ibm_design from '../assets/ibm_design.pdf';
+import ibm_design from '../assets/ibm_design.png';
 // @ts-ignore
-import datacamp_supervised_learning from '../assets/datacamp_supervised_learning.pdf';
+import datacamp_supervised_learning from '../assets/datacamp_supervised_learning.png';
 // @ts-ignore
-import datacamp_cloud_computing from '../assets/datacamp_cloud_computing.pdf';
+import datacamp_cloud_computing from '../assets/datacamp_cloud_computing.png';
 // @ts-ignore
-import datacamp_aws_concepts from '../assets/datacamp_aws_concepts.pdf';
+import datacamp_aws_concepts from '../assets/datacamp_aws_concepts.png';
 // @ts-ignore
-import datacamp_aws_cloud_tech from '../assets/datacamp_aws_cloud_tech.pdf';
+import datacamp_aws_cloud_tech from '../assets/datacamp_aws_cloud_tech.png';
 // @ts-ignore
-import datacamp_understanding_ai from '../assets/datacamp_understanding_ai.pdf';
+import datacamp_understanding_ai from '../assets/datacamp_understanding_ai.png';
 // @ts-ignore
-import datacamp_aws_practitioner from '../assets/datacamp_aws_practitioner.pdf';
+import datacamp_aws_practitioner from '../assets/datacamp_aws_practitioner.png';
 // @ts-ignore
-import datacamp_mlops from '../assets/datacamp_mlops.pdf';
+import datacamp_mlops from '../assets/datacamp_mlops.png';
 // @ts-ignore
-import forage_software_engineering from '../assets/forage_software_engineering.pdf';
+import forage_software_engineering from '../assets/forage_software_engineering.png';
 export function Certificates() {
   const projects = [
     {

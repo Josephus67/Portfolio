@@ -13,7 +13,7 @@ export function Hero() {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-secondary/20 px-4">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="space-y-6">
-          <div className="mx-auto w-32 h-32 rounded-full overflow-hidden border-4 border-primary/10">
+          <div className="mx-auto w-48 h-48 rounded-full overflow-hidden border-4 border-primary/10">
             <ImageWithFallback 
               
               src={professional_photo}
