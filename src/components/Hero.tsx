@@ -18,7 +18,8 @@ export function Hero() {
               
               src={professional_photo}
               alt="Professional headshot"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
+              style={{ objectPosition: 'center 30%' }}
             />
           </div>
           
